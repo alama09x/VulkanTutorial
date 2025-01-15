@@ -1,0 +1,8 @@
+-std=c++23
+-O3
+-Wall
+-Wextra
+-Ilib/glm/glm
+-Ilib/glfw/include
+-Ilib/stb
+-I/opt/vulkan/1.3.296.0/macOS/include
