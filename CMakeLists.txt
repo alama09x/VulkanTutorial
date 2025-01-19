@@ -27,7 +27,7 @@ add_custom_command(
 
 add_custom_command(
 	OUTPUT ${SHADER_BINARIES}
-	COMMAND python ${CMAKE_CURRENT_SOURCE_DIR}/compile_shaders.py ${SHADER_FILES}
+	COMMAND python3 ${CMAKE_CURRENT_SOURCE_DIR}/compile_shaders.py ${SHADER_FILES}
 	DEPENDS ${SHADER_FILES}
 	COMMENT "Compiling shaders"
 )
